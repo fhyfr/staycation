@@ -1,12 +1,14 @@
-import React, { Component } from 'react'
-import Header from 'parts/Header'
+import React, { Component } from "react";
+import Header from "parts/Header";
 
-export default class LandingPages extends Component {
+export default class LandingPage extends Component {
     render() {
-        return <>
+        return (
+        <>
             <Header {...this.props}>
 
             </Header>
         </>
+        );
     }
 }
