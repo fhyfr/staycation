@@ -34,13 +34,13 @@ export default function Hero(props) {
                     </Button>
 
                     <div className="row mt-5" style={{marginTop: 80}}>
-                        <div className="col-auto mr-5">
+                        <div className="col-auto mr-4">
                             <img width="36" height="36" src={IconTraveler} alt={`${props.data.travelers} travelers`}/>
                             <h6 className="mt-3">
                                 {numberFormat(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
                             </h6>
                         </div>
-                        <div className="col-auto mr-5">
+                        <div className="col-auto mr-4">
                             <img width="36" height="36" src={IconTreasure} alt={`${props.data.treasure} treasure`}/>
                             <h6 className="mt-3">
                                 {numberFormat(props.data.treasure)} <span className="text-gray-500 font-weight-light">treasure</span>
